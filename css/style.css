@@ -146,7 +146,6 @@ p {
 	text-align: center;
 }
 
-
 /***************/
 .sectionLightGreyBackground {
 	background-color: var(--light-grey-color);
@@ -204,7 +203,7 @@ p {
 
 /* -------------- Ajout ------------------- */
 
-.buttonRounded.buttonMainColor.buttonHighlight:hover {
+.buttonRounded .buttonMainColor .buttonHighlight:hover {
 	border-radius: 39px;
 	color: var(--main-color);
 	border-color: var(--main-color);
@@ -212,7 +211,7 @@ p {
 	border-width: 3px;
 }
 
-.buttonRounded.buttonSecondColor.buttonHighlight:hover {
+.buttonRounded .buttonSecondColor .buttonHighlight:hover {
 	border-radius: 39px;
 	color: var(--second-color);
 	border-color: var(--second-color);
